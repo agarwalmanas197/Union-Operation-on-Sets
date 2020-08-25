@@ -1,5 +1,5 @@
 # Union-Operation-on-Sets
-write a program in c to create two sets and perform the union operation on sets.
+#### write a program in c to create two sets and perform the union operation on sets.
 
 
 The collection of well-defined distinct objects is known as a set. The word well-defined refers to a specific property which makes it easy to identify whether the given object belongs to the set or not. The word ‘distinct’ means that the objects of a set must be all different. 
@@ -10,8 +10,10 @@ Union of two given sets is the smallest set which contains all the elements of b
 To find the union of two given sets A and B is a set which consists of all the elements of A and all the elements of B such that no element is repeated.
 The symbol for denoting union of sets is ‘∪’. 
 For example;
+```
 Let set A = {2, 4, 5, 6}
 and set B = {4, 6, 7, 8}
+```
 Taking every element of both the sets A and B, without repeating any element, we get a new set = {2, 4, 5, 6, 7, 8}
 This new set contains all the elements of set A and all the elements of set B with no repetition of elements and is named as union of set A and B.
 
@@ -19,7 +21,7 @@ This new set contains all the elements of set A and all the elements of set B wi
 
 
 
-
+```
 Program -
 
 
@@ -140,7 +142,11 @@ int main()
     }
 
 } 
+```
+
 OUTPUT
+
+```
 Enter the number of elements in first set:
 5
 Enter the elements:
@@ -165,3 +171,4 @@ Element of Second set:
 6       7       8       5       4
 Element of resultant set
 1       2       3       4       5       6       7       8
+```
